@@ -1,0 +1,16 @@
+# generated output (built and deployed by GitHub Actions)
+site/index.html
+site/methodologie.html
+site/mentions-legales.html
+site/actif/
+site/assets/data.js
+site/CNAME
+site/.nojekyll
+data/assets.json
+data/*.log
+# local-only material
+raw/
+screenshots/
+newsletter/*.md
+.venv/
+__pycache__/
