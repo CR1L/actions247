@@ -33,3 +33,7 @@ Python stdlib only for the pipeline (no keys). Playwright (in .venv) only for sc
 - Ondo gap uses the dividend multiplier.
 - Affiliate slots: `AFFILIATE` dict in `pipeline/build_site.py` (all None today, links go to official homepages, marked `data-affiliate-slot="TODO"`).
 - Newsletter form is a placeholder (no service wired).
+
+## SEO (build_site.py)
+- FR pages at `/`, EN pages at `/en/` (same paths), each with canonical + hreflang fr/en/x-default, unique title/description, Open Graph + Twitter card (`site/assets/og.png`), JSON-LD (WebSite + Dataset on home, FinancialProduct + BreadcrumbList on token pages).
+- `sitemap.xml` (all FR/EN URLs with alternates) and `robots.txt` generated on every build. Site URL constant: `SITE_URL = "https://actions247.fr"`.

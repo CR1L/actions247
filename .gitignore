@@ -3,6 +3,9 @@ site/index.html
 site/methodologie.html
 site/mentions-legales.html
 site/actif/
+site/en/
+site/sitemap.xml
+site/robots.txt
 site/assets/data.js
 site/CNAME
 site/.nojekyll
