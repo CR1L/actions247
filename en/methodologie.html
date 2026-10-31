@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" data-lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tokenized stock data: method and sources | Actions 24/7</title>
+<meta name="description" content="How Actions 24/7 computes prices and gaps for xStocks and Ondo tokenized stocks: sources (Kraken, OKX, DexScreener, Yahoo Finance), rules and limits.">
+<link rel="canonical" href="https://actions247.fr/en/methodologie.html">
+<link rel="alternate" hreflang="fr" href="https://actions247.fr/methodologie.html">
+<link rel="alternate" hreflang="en" href="https://actions247.fr/en/methodologie.html">
+<link rel="alternate" hreflang="x-default" href="https://actions247.fr/methodologie.html">
+<meta property="og:site_name" content="Actions 24/7">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tokenized stock data: method and sources | Actions 24/7">
+<meta property="og:description" content="How Actions 24/7 computes prices and gaps for xStocks and Ondo tokenized stocks: sources (Kraken, OKX, DexScreener, Yahoo Finance), rules and limits.">
+<meta property="og:url" content="https://actions247.fr/en/methodologie.html">
+<meta property="og:image" content="https://actions247.fr/assets/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tokenized stock data: method and sources | Actions 24/7">
+<meta name="twitter:description" content="How Actions 24/7 computes prices and gaps for xStocks and Ondo tokenized stocks: sources (Kraken, OKX, DexScreener, Yahoo Finance), rules and limits.">
+<meta name="twitter:image" content="https://actions247.fr/assets/og.png">
+<link rel="stylesheet" href="/assets/style.css">
+
+</head><body>
+<header class="top"><div class="wrap">
+<a class="logo" href="/en/">Actions <b>24/7</b></a>
+<nav><a href="/en/">Table</a>
+<a href="/en/methodologie.html">Method &amp; sources</a>
+<a href="/en/#newsletter">Newsletter</a>
+<span class="lang"><a class="lb" href="https://actions247.fr/methodologie.html" hreflang="fr">FR</a><a class="lb on" href="https://actions247.fr/en/methodologie.html" hreflang="en">EN</a></span></nav>
+</div></header>
+<div class="wrap">
+<div class="banner"><strong>Information, not investment advice.</strong> Tokenized stocks are not shares: they generally give no direct ownership and no voting rights. Not for US persons. EU availability depends on your country and can change at any time.</div>
+<h1>Method &amp; sources</h1>
+    <div class="card"><h2>Data sources (last run)</h2>
+    <table><tr><th>Source</th><th>OK</th><th>Detail</th></tr><tr><td>xStocks API</td><td>✅</td><td class='small' style='white-space:normal'>1474 assets over 15 pages</td></tr><tr><td>Ondo token list (Binance public RWA list)</td><td>✅</td><td class='small' style='white-space:normal'>1445 token deployments</td></tr><tr><td>Kraken public API</td><td>✅</td><td class='small' style='white-space:normal'>177 tokenized assets listed, 120 with a USD last price</td></tr><tr><td>OKX public API</td><td>✅</td><td class='small' style='white-space:normal'>166 tokenized stocks (instCategory 3)</td></tr><tr><td>Bitpanda public API</td><td>✅</td><td class='small' style='white-space:normal'>2332 real stocks/ETFs with ISIN (not tokens)</td></tr><tr><td>DexScreener</td><td>✅</td><td class='small' style='white-space:normal'>165 batch requests, 0 failed, 131 tokens priced</td></tr><tr><td>Stooq CSV (fallback, tested only)</td><td>❌</td><td class='small' style='white-space:normal'>&lt;HTTPError 404: &#x27;Not Found&#x27;&gt;</td></tr><tr><td>Yahoo Finance chart (keyless)</td><td>✅</td><td class='small' style='white-space:normal'>1356/1364 tickers priced; failed: [&#x27;BLKDIG&#x27;, &#x27;BLKGRW&#x27;, &#x27;BLKHI&#x27;, &#x27;BRAIN&#x27;, &#x27;MAG7X&#x27;, &#x27;USDY&#x27;, &#x27;YLD5&#x27;, &#x27;YLD8&#x27;]</td></tr></table>
+    <p class="small">We only show fetched data. A missing value is marked “n/a”, never estimated. v1 scope: xStocks whose underlying is US-listed, and Ondo Global Markets tokens.</p></div>
+    <div class="card"><h2>Disclaimers</h2><ul><li>This is not investment advice. We recommend no product.</li><li>Tokenized stocks are not shares: no direct ownership, no voting rights, issuer and platform risk.</li><li>Not for US persons or US residents.</li><li>EU availability depends on each platform, your country and profile; it can change without notice.</li><li>Prices may be delayed; the underlying share does not trade at night or on weekends, while the token keeps trading.</li></ul></div>
+</div>
+<footer><div class="wrap">
+<p>Actions 24/7 is an independent information site. Nothing here is investment advice, a recommendation or an offer. The products listed are complex and risky; you can lose all your capital. They are not offered to US residents or US persons. Data comes from free public sources and may be incomplete, delayed or wrong: always check with the issuer and the platform.</p>
+<p>Partner links: some platform links may become affiliate links. They never change the data or the ranking.</p>
+<p>Data updated 31/10/2026 21:02 (heure de Luxembourg / Luxembourg time).</p>
+<p><a href="/en/mentions-legales.html">Legal notice</a></p>
+</div></footer>
+<script src="/assets/i18n.js"></script>
+</body></html>
